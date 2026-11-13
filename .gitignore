@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Data & Models (never commit large data or binaries to Git)
+data/raw/*.csv
+data/processed/*.parquet
+data/processed/*.csv
+models/*.joblib
+models/*.pkl
+
+# MLflow local tracking
+mlruns/
+mlartifacts/
+mlflow.db
+
+# Environment variables
+.env
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+.ipynb_checkpoints/
